@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <title>SRM: Web Development</title>
+</head>
+<body class="container-fluid">
+    <div class="main-page"> </div>
+    <header class="w-100 d-flex justify-content-around align-items-center p-2">
+        <h1>SRM Web <span id="tagline">Full-Stack Web Development</span>
+        </h1>
+        <img id="profile" class="rounded-circle" src="./assets/images/Profile.jpeg" alt""/>
+    </header>
+    <main>
+    <nav class="navbar sticky-top navbar-expand-sm rounded-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars nav-btn-toggle"></i>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" aria-expanded="false">
+                <ul class="navbar-nav">
+                    <li class="nav-item nav-btn autocollapse">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item nav-btn autocollapse">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item nav-btn autocollapse">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item nav-btn autocollapse">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item nav-btn autocollapse">
+                        <a class="nav-link" href="#dogs">Dog Days</a>
+                    </li>
+                    <li class="nav-item dropdown nav-btn">
+                        <a class="nav-link nav-btn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Contact
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #DADED4;">
+                            <li class="dropdown-item nav-btn">
+                                <a aria-current="page" href="http://www.linkedin.com/in/sandra-r-marr" target="_blank">
+                                    LinkedIn
+                                </a>
+                            </li>
+                            <li class="dropdown-item nav-btn">
+                                <a aria-current="page" href="https://github.com/sandra-marr" target="_blank">
+                                   GitHub
+                                </a>
+                            </li>
+                            <li class="dropdown-item nav-btn">
+                                <address>
+                                    <a aria-current="page" href="mailto:srpeters44@gmail.com">
+                                       Email
+                                    </a>
+                                </address>
+                            </li>
+                        </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="p-3 mb-3 mainbckgrnd rounded-bottom" id="about">
+        <section class="container-fluid d-flex flex-column justify-content-center">
+            <h2 class="accent pb-2 text-center" >About Me</h2>
+            <p>Originally from Chicago, I moved across the country to Seattle in 2014 and have fallen in love with the Pacific Northwest. To date my professional experience has focused on Project Management, Structural Design Engineering, and Test Engineering, with some volunteer work peppered in as a treasurer for a non-profit. When faced with the challenges brought on by the pandemic, I stumbled upon an opportunity to learn about web development and discovered a new passion. I'm now enrolled as a student with University of Washington's Full-Stack Coding Bootcamp and am on a journey to a new career.</p>
+            <p>Starting in March, I was just learning about HTML and CSS. After only two months, I've developed and learned enough to have created a fully functioning application with a team of amazing people.  As I learn more about becoming a web developer, I'm hoping to bring my drive, passion, and prior knowledge into this new career.</p>
+            <p>For more information about my professional experience, please refer to my <a class="text-reset" href="./assets/SRMResume.pdf">resume</a>.</p>
+            <p>Outside of work, you can find me spending time outside with my husband and our dog. We love taking quick day hikes through Discovery Park in Seattle, and sailing out on the Puget Sound. Anything that gets us moving and in the sun is a plus! I'm also a big fan of Crossfit and have found a great community at the local box, Valkyrie Strength and Conditioning.</p>
+            
+        </section>
+    </section> 
+    <section class="p-3 mb-3 mainbckgrnd rounded-bottom" id="skills">
+        <section class="container-fluid d-flex flex-column">
+            <h2 class="accent pb-2 text-center">Languages, Skills, Applications:</h3>
+            <div class="d-flex justify-content-around list fs-9">
+                <ul class="px-2">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>JavaScript</li>
+                </ul>
+                <ul class="px-2">
+                    <li>Web APIs</li>
+                    <li>Third Party APIs</li>
+                    <li>Server-Side APIs</li>
+                    <li>Node.js</li>
+                </ul>
+                <ul class="px-2">
+                    <li>CSS Frameworks</li>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>UIKit</li>
+                    </ul>
+                </ul>
+            </div>
+        </section>
+    </section>
+    <section class="p-3 mb-3 mainbckgrnd rounded-bottom" id="work">
+        <section class="container-fluid d-flex flex-column justify-content-center">
+            <h2 class="accent pb-2 text-center">Work</h2>
+            <div class="row w-100">
+                <div class="row mb-3 px-0">
+                    <div class="card col-sm-4 p-2 mb-3">
+                        <img src="./assets/images/Kids_Corner.png" class="card-img mx-auto" alt="This is a preview of the Kid's Corner landing page.">
+                        <div class="card-img-overlay responsive-img d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="card-title">Kid's Corner</h5>
+                            <a href="https://sandra-marr.github.io/Project-1/" target="_blank">Deployed Application</a>
+                            <a href="https://github.com/sandra-marr/Project-1" target="_blank">GitHub Repository</a>
+                            <button type="button" class="preview pt-3">Preview</button>
+                        </div>
+                    </div>
+                    <div class="card col-sm-4 p-2 mb-3">
+                        <img src="./assets/images/Weather_Dashboard.png" class="card-img mx-auto" alt="This is a preview of the Weather Dashboard App.">
+                        <div class="card-img-overlay responsive-img d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="card-title">Weather Dashboard</h5>
+                            <a href="https://sandra-marr.github.io/006_Weather-Dashboard/" target="_blank">Deployed Application</a>
+                            <a href="https://github.com/sandra-marr/006_Weather-Dashboard/" target="_blank">GitHub Repository</a>
+                            <button type="button" class="preview pt-3">Preview</button>
+                        </div>
+                    </div>
+                    <div class="card col-sm-4 p-2 mb-3">
+                        <img src="./assets/images/Work_Day_Scheduler.png" class="card-img mx-auto" alt="This is a preview of the Work Day Scheduler App.">
+                        <div class="card-img-overlay responsive-img d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="card-title">Workday Scheduler</h5>
+                            <a href="https://sandra-marr.github.io/005_Work-Day-Scheduler/" target="_blank">Deployed Application</a>
+                            <a href="https://github.com/sandra-marr/005_Work-Day-Scheduler/" target="_blank">GitHub Repository</a>
+                            <button type="button" class="preview pt-3">Preview</button>
+                        </div>
+                    </div>
+                    <div class="card col-sm-4 p-2 mb-3">
+                        <img src="./assets/images/Horiseon.png" class="card-img mx-auto" alt="This is a preview of Horiseon's landing page.">
+                        <div class="card-img-overlay responsive-img d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="card-title">Horiseon</h5>
+                            <a href="https://sandra-marr.github.io/001_Refactor/" target="_blank">Deployed Application</a>
+                            <a href="https://github.com/sandra-marr/001_Refactor/" target="_blank">GitHub Repository</a>
+                            <button type="button" class="preview pt-3">Preview</button>
+                        </div>
+                    </div>
+                    <div class="card col-sm-4 p-2 mb-3">
+                        <img src="./assets/images/password.png" class="card-img mx-auto" alt="This is a preview of the Weather Dashboard App.">
+                        <div class="card-img-overlay responsive-img d-flex flex-column justify-content-center align-items-center ">
+                            <h5 class="card-title">Password Generator</h5>
+                            <a href="https://sandra-marr.github.io/003_Password-Generator/" target="_blank">Deployed Application</a>
+                            <a href="https://github.com/sandra-marr/003_Password-Generator/" target="_blank">GitHub Repository</a>
+                            <button type="button" class="preview pt-3">Preview</button>
+                        </div>
+                    </div>
+                    <div class="card col-sm-4 p-2 mb-3">
+                        <img src="./assets/images/CodeQuiz.png" class="card-img mx-auto" alt="This is a preview of the Work Day Scheduler App.">
+                        <div class="card-img-overlay responsive-img d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="card-title">Code Quiz</h5>
+                            <a href="https://sandra-marr.github.io/004_Code-Quiz/" target="_blank">Deployed Application</a>
+                            <a href="https://github.com/sandra-marr/004_Code-Quiz/" target="_blank">GitHub Repository</a>
+                            <button type="button" class="preview pt-3">Preview</button>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="p-3 mb-3 mainbckgrnd rounded-bottom" id="dogs">
+        <section class="container-fluid d-flex flex-column justify-content-center">
+            <h2 class="accent pb-2 text-center">Dog Days</h2>
+            <p>Meet Bentley! He is a flat-coated retriever, extremly friendly, and always up for an adventure. He is a huge part of my life, so I couldn't miss an opportunity to share the joy.</p>
+        </section>
+        <section class="container-fluid row">
+            <div class="col-sm-4 mb-3">
+                <img class="rounded img-fluid responsive-img" src="./assets/images/dog1.JPG" atl="Bentley enjoys long walks through the neighborhood, but when he is tired and lays down, you are stuck until he is ready to keep going." />
+            </div>  
+            <div class="col-sm-4 mb-3">
+                <img class="rounded img-fluid responsive-img" src="./assets/images/dog3.JPG" atl="Everyonce in a while, Bentley will take a dip in the sound. Here he is after a swim near Golden Gardens." />
+            </div>
+            <div class="col-sm-4 mb-3">
+                <img class="rounded img-fluid responsive-img" src="./assets/images/dog2.JPG" atl="Bentley spent a lot of time at Ella Bailey Park in 2020, enjoying the views of the city and Mt. Rainier."/>
+            </div>
+        </section>
+    </section>
+    </main>
+    <footer class="d-flex justify-content-center align-items-center fs-5" id="contact">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="footer-btn active rounded-pill p-2" aria-current="page" href="http://www.linkedin.com/in/sandra-r-marr" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="footer-btn active rounded-pill p-2" aria-current="page" href="https://github.com/sandra-marr" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <address>
+                    <a class="footer-btn active rounded-pill p-2" aria-current="page" href="mailto:srpeters44@gmail.com">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </address>
+            </li>
+        </ul>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/aaf43dd7fc.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

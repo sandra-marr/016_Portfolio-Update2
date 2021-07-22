@@ -78,6 +78,7 @@ h1, h2, h5 {
  address {
      margin: 0;
  }
+ 
 .footer-btn  {
     color: var(--light);
     background-color: transparent;
@@ -153,7 +154,7 @@ h1, h2, h5 {
     margin-right: 0;
 }
 
-.card {
+.cardbackground {
     color: var(--dark);
     background-color: var(--light);
     background: radial-gradient(circle, rgba(218,222,212,1) 0%, rgba(218,222,212,1) 50%, rgba(60,64,61,1) 90%);
@@ -182,4 +183,16 @@ h1, h2, h5 {
 
 
     
+  }
+
+  .masonry-with-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .scroller {
+    position: relative;
+    height: 300px;
+    overflow: auto;
   }
